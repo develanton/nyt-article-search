@@ -2,3 +2,7 @@
 background-color: blue;
 color: white; 
 }
+
+.card-header{
+    background-color: #213257; color: white;
+}

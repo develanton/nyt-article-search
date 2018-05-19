@@ -23,43 +23,52 @@
 
         <div class="row">
             <div class="col-12">
-            <form>
-                <div class="card ">
-                    <h5 class="card-header">Search Parameters</h5>
-                    <div class="card-body">
-                        <p class="card-text">
-                            <label for="searchterm">Search Term</label>
-                            <input type="text" class="form-control" id="searchTermText" placeholder="Enter the search term">
-                        </p>
-                        <p class="card-text">
-                            <label for="numRecords">Number of records to retrieve</label>
-                            <select class="form-control" id="numRecords">
-                                <option>1</option>
-                                <option>5</option>
-                                <option>10</option>
-                            </select>
-                        </p>
-                        <p class="card-text">
-                            <label for="startYear">Start Year {Optional}</label>
-                            <input type="text" class="form-control" id="startYearText" placeholder="Start Year">
-                        </p>
-                        <p class="card-text">
-                            <label for="endYear">End Year {Optional}</label>
-                            <input type="text" class="form-control" id="endYearText" placeholder="End Year">
-                        </p>
-                        <a href="#" id="search" class="btn btn-primary">Search</a>
-                        <a href="#" id="clear" class="btn btn-secondary">Clear Results</a>
+                <form>
+                    <div class="card">
+                        <h5 class="card-header" style="background-color: #213257; color: white;">Search Parameters</h5>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <label for="searchterm">Search Term</label>
+                                <input type="text" class="form-control" id="searchTermText" placeholder="Enter the search term">
+                            </p>
+                            <p class="card-text">
+                                <label for="numRecords">Number of records to retrieve</label>
+                                <select class="form-control" id="numRecords">
+                                    <option>1</option>
+                                    <option>5</option>
+                                    <option>10</option>
+                                </select>
+                            </p>
+                            <p class="card-text">
+                                <label for="startYear">Start Year {Optional}</label>
+                                <input type="text" class="form-control" id="startYearText" placeholder="Start Year">
+                            </p>
+                            <p class="card-text">
+                                <label for="endYear">End Year {Optional}</label>
+                                <input type="text" class="form-control" id="endYearText" placeholder="End Year">
+                            </p>
+                            <a href="#" id="search" class="btn btn-primary">Search</a>
+                            <a href="#" id="clear" class="btn btn-secondary">Clear Results</a>
+                        </div>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
 
-
-            <div class="row">
-                Top Articles
+        <div class="row">
+            <div class="col-12 mt-3">
+                <div class="card">
+                    <h5 class="card-header" style="background-color: #213257; color: white;"> Top Articles</h5> 
+                    <div class="card-body">
+                            <p class="card-text">
+                                <label for="searchterm">Search Term</label>
+                                <input type="text" class="form-control" id="searchTermText" placeholder="Enter the search term">
+                            </p>         
+                </div>
             </div>
         </div>
     </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
