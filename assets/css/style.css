@@ -1,8 +1,4 @@
-.jumbotron{
-background-color: blue;
-color: white; 
-}
-
-.card-header{
-    background-color: #213257; color: white;
+#reference{
+    height: 20%;
+    background-color: green;
 }
