@@ -14,6 +14,7 @@ $("#search").on("click", function(event) {
 
           var searcResult = $("<div>");
           var textInput = $("<p>").text("Author: " + response.byline.original)
+          
     
       });
     //console.log(searchTerm);
